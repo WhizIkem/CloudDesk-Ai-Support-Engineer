@@ -1,0 +1,5 @@
+.venv/
+.env
+clouddesk_dataset/
+clouddesk_dataset.zip
+vector_db/
