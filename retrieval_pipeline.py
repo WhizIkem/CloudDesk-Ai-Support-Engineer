@@ -35,10 +35,10 @@ FALLBACK_MESSAGE = (
 )
 
 def load_config() -> Dict[str, Any]:
-    load_dotenv()
+    load_dotenv(override=True)
     return {
         "hf_token": os.getenv("HF_TOKEN") or os.getenv("HUGGINGFACE_API_KEY"),
-        "hf_model": os.getenv("HF_MODEL", "deepseek-ai/DeepSeek-V4-Pro-0813:novita"),
+        "hf_model": os.getenv("HF_MODEL") or "deepseek-ai/DeepSeek-V4-Pro:novita",
         "pinecone_api_key": os.getenv("PINECONE_API_KEY"),
         "pinecone_index": os.getenv("PINECONE_INDEX_NAME", "clouddesk-support-rag"),
         "embed_model": os.getenv("EMBED_MODEL", "all-MiniLM-L6-v2"),
