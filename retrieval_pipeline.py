@@ -40,7 +40,7 @@ def load_config() -> Dict[str, Any]:
         "hf_token": os.getenv("HF_TOKEN") or os.getenv("HUGGINGFACE_API_KEY"),
         "hf_model": os.getenv("HF_MODEL") or "deepseek-ai/DeepSeek-V4-Pro:novita",
         "pinecone_api_key": os.getenv("PINECONE_API_KEY"),
-        "pinecone_index": os.getenv("PINECONE_INDEX_NAME", "clouddesk-support-rag"),
+        "pinecone_index": os.getenv("PINECONE_INDEX_NAME", "clouddesk_support_rag"),
         "embed_model": os.getenv("EMBED_MODEL", "all-MiniLM-L6-v2"),
         "vector_db_dir": os.getenv("VECTOR_DB_DIR", "vector_db"),
         "confidence_threshold": 0.60
