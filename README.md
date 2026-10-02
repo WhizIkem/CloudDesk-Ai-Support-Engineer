@@ -151,6 +151,18 @@ CloudDesk-Ai-Support-Engineer/
     └── chunks_store.json
 ```
 
+## Documentation
+
+For detailed guides and references, see the `docs/` folder:
+
+* **[QUICKSTART.md](docs/QUICKSTART.md)** - Getting started guide
+* **[DEPLOY_STREAMLIT_CLOUD.md](docs/DEPLOY_STREAMLIT_CLOUD.md)** - Cloud deployment instructions
+* **[SYSTEM_SUMMARY.txt](docs/SYSTEM_SUMMARY.txt)** - Complete system architecture
+* **[ONE_PAGE_SUMMARY.txt](docs/ONE_PAGE_SUMMARY.txt)** - Quick 2-minute overview
+* **[ARCHITECTURE_EXPLAINED.md](docs/ARCHITECTURE_EXPLAINED.md)** - Detailed architecture with diagrams
+* **[README_REFERENCE_GUIDE.md](docs/README_REFERENCE_GUIDE.md)** - Master index of all documentation
+* **[FRONTEND_BACKEND_CLARIFICATION.md](docs/FRONTEND_BACKEND_CLARIFICATION.md)** - Frontend/backend explanation
+
 ## Project Goals
 
 The main goals of the project are to:
