@@ -132,7 +132,7 @@ The application returns the generated response along with confidence and support
 CloudDesk-Ai-Support-Engineer/
 │
 ├── app.py
-├── streamlit_app.py
+├── streamlit_app .py
 ├── retrieval_pipeline.py
 ├── requirements.txt
 ├── context_str_view.html
